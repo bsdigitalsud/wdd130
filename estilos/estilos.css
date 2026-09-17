@@ -1,3 +1,10 @@
+/*Retar css do meu projeto*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --cor-principal: darkblue;
     --tamanho-espassamento: 1rem;
@@ -20,11 +27,14 @@ h1 {
 }
 
 main img {
+    margin-left: 20px;
+    margin-bottom: 20px;
     width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 p {
@@ -32,18 +42,16 @@ p {
 }
 
 main {
-    max-width: 840px;
+    max-width: 100%;
 
 }
 
 aside {
     width: 20rem;
-    margin: var(--tamanho-espassamento);
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: var(--tamanho-espassamento);
     background-color: #eee;
     color: #333;
     text-align: center;
+    position: relative;
 }
 
 aside img {
@@ -55,4 +63,18 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Seletores de Class */
+
+.caixa {
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: var(--tamanho-espassamento);
+    margin: var(--tamanho-espassamento);
+    background-color: #eee;
+
+}
+
+.indentacao {
+    padding-left: 2rem;
 }
