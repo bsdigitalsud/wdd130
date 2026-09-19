@@ -1,7 +1,8 @@
 :root {
+    --cor-destaque2: #005200;
     --cor-primaria: #fff;
     /*verde floresta*/
-    --cor-secundaria: #cfe8d5;
+    --cor-secundaria: #000;
     /*verde-agua claro*/
     --cor-destaque1: #16324f;
     /* azul profundo*/
@@ -17,7 +18,7 @@
 
 body {
     font-family: var(--fonte-boby);
-    color: var(--cor-destaque1);
+    color: var(--cor-secundaria);
 }
 
 header,
@@ -35,7 +36,7 @@ header {
 h1,
 h2 {
     font-family: var(--fonte-titulo);
-    color: var(--cor-destaque1);
+    color: var(--cor-destaque2);
     text-align: center;
 }
 
@@ -68,7 +69,7 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--cor-destaque1);
+    background-color: var(--cor-secundaria);
     color: #fff;
 }
 
@@ -76,7 +77,8 @@ h1 {
     position: absolute;
     top: 200px;
     left: 20px;
-    background-color: var(--cor-destaque1);
+    border: 10px solid #000;
+    background-color: var(--cor-secundaria);
     color: #fff;
     opacity: 0.8;
 }
@@ -84,4 +86,5 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
+    
 }
