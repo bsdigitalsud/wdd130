@@ -22,7 +22,7 @@ nav a {
 }
 
 h1 {
-    color: (--cor-principal);
+    color: var(--cor-principal);
 }
 
 main {
@@ -30,10 +30,10 @@ main {
 }
 
 main img {
+    width: 150px;
     margin-left: 10px;
     margin-bottom: 10px;
     margin-right: 20px;
-    width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
@@ -67,7 +67,7 @@ footer {
 /* Seletores de Class */
 
 .caixa {
-    border: 1px solid rgb(0 0 0 / 0.2);
+    border: 1px solid rgb(0, 0, 0, 0.2);
     padding: 1rem;
     margin: 1rem;
     background-color: #eee;

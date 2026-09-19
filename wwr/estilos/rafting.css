@@ -1,5 +1,5 @@
 :root {
-    --cor-primaria: #2f5e44;
+    --cor-primaria: #fff;
     /*verde floresta*/
     --cor-secundaria: #cfe8d5;
     /*verde-agua claro*/
@@ -31,13 +31,13 @@ footer {
 
 header {
     background-color: var(--cor-primaria);
-    color: var(--cor-destaque2);
+    color: var(--cor-secundaria);
 }
 
 h1,
 h2 {
     font-family: var(--fonte-titulo);
-    color: var(--cor-primaria);
+    color: var(--cor-destaque1);
     text-align: center;
 }
 
