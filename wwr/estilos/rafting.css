@@ -5,8 +5,6 @@
     /*verde-agua claro*/
     --cor-destaque1: #16324f;
     /* azul profundo*/
-    --cor-destaque2: #f2c14e;
-    /*Amarelo-sol*/
     --fonte-titulo: Geogia, "Times New Roman", serif;
     --fonte-boby: Arial, Helvertica, sans-serif;
 }
@@ -49,7 +47,7 @@ article {
     padding: 8px;
 }
 
-.redes-sociais a {
+.socialmedia a {
     text-decoration: none;
 }
 
