@@ -23,17 +23,23 @@ div {
 
 .flex {
     background-color: #aba;
+     display: flex;
+    justify-content: center;
+    align-items: center;
     /* escreva declaracoes aqui */
-
 }
 
+
+
 .grid {
-    background-color: #abb;
+    
+    
     /* escreva declaracoes aqui */
 
 }
 
 .container2 {
+    
     /* escreva declaracoes aqui */
 
 }
@@ -44,9 +50,11 @@ div {
 }
 
 .container3 {
+    
+}
     /* escreva declaracoes aqui */
 
-}
+
 
 .colunas-3 {
     /* escreva declaracoes aqui */

@@ -1,9 +1,4 @@
 /*Resetartar css do meu projeto*/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 :root {
     --cor-principal: darkblue;
@@ -26,13 +21,19 @@ h1 {
 }
 
 main {
-    max-width: 100%;
+    padding: 1rem;
+    
+}
+
+main h1{
+    border-bottom: 1px solid blue;
 }
 
 main img {
-    width: 150px;
+    width: 180px;
     margin-left: 10px;
-    margin-bottom: 10px;
+    margin-bottom:20px;
+    margin-top:0;
     margin-right: 20px;
     height: auto;
     border: 1px solid black;
@@ -42,13 +43,29 @@ main img {
 
 }
 
+nav {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+nav a{
+    display: block;
+    padding: 5px;
+   text-decoration: none;
+    
+}
+
 p {
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 aside {
     width: 20rem;
-    color: #333;
+    margin:20px;
+    border:1px solid #000;
+    padding: 1rem;
     text-align: center;
     position: relative;
 }
@@ -72,6 +89,20 @@ footer {
     margin: 1rem;
     background-color: #eee;
 
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid aside{
+    grid-row: 1;
+}
+
+header, footer, .grid{
+    max-width: 840px;
+    margin: 0 auto;
 }
 
 .indentacao {
