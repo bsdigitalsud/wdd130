@@ -163,3 +163,81 @@ nav ul{
     width: 125px;
     
 }
+
+.formulario {
+    display: block;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+    padding: 8px;
+    width: 100%;
+}
+
+.formulario textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.formulario button {
+    padding: 12px;
+    cursor: pointer;
+    background-color: var(--cor-destaque2);
+    color: #fff;
+    border: none;
+    width: 200px;
+}
+
+
+
+.equipe {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.equipe figure {
+    margin: 0;
+}
+
+.equipe h2 {
+    grid-column: 1 /-1;
+}
+
+.equipe img {
+    width: 100%;
+}
+
+.equipe figcaption {
+    text-align: center;
+}
+
+.contato {
+    display: block;
+}
+
+.mapa {
+    display: block;
+}
+
+.mapa iframe {
+    width: 100%;
+}
+
+.mapa iframe {
+    height: 300px;
+    border: 0;
+}
+
+.formulario fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
