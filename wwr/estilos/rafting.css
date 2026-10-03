@@ -229,12 +229,11 @@ nav ul{
 
 .mapa iframe {
     width: 100%;
-}
-
-.mapa iframe {
-    height: 300px;
+     height: 300px;
     border: 0;
 }
+
+
 
 .formulario fieldset {
     display: flex;
